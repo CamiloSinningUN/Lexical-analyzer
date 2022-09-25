@@ -1,0 +1,36 @@
+main (void)
+{ 
+ /*
+    Probando
+ */   
+ int i;
+ int j;
+ char c;
+ char cadena
+ float 2z;
+ z=14.9e-8;
+ z=12.9;
+ cadena="Hola";
+ scanf ("%d",i);
+ i=i*2;
+ printf ("El doble es %d",i);
+ if(j == i){
+    while(i<054){
+        i=i+1;
+    }
+ }
+ char 9z; //error
+ // Esta función no hace nada
+
+ // errores
+ disc = b**2 - 4a*c; 
+ ?
+ ...&
+ dg&
+ discs>>abo,r
+ disc-sabor&
+ disc_sabor
+ .f1f.43.ede
+
+ -15.-5
+}

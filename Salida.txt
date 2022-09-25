@@ -1,0 +1,44 @@
+MAIN  parent-a= ( VOID parent-c= ) 
+inicio= { 
+ Comentario (multilinea)= /*
+    Probando
+ */    
+ INT  Id= i punto-coma= ; 
+ INT  Id= j punto-coma= ; 
+ CHAR  Id= c punto-coma= ; 
+ CHAR  Id= cadena 
+ FLOAT  Error= 2z punto-coma= ; 
+ Id= z op-asign= = Cte real= 14.9e-8 punto-coma= ; 
+ Id= z op-asign= = Cte real= 12.9 punto-coma= ; 
+ Id= cadena op-asign= = Cte cadena="Hola" punto-coma= ; 
+ SCANF  parent-a= ( Cte cadena="%d" coma= , Id= i parent-c= ) punto-coma= ; 
+ Id= i op-asign= = Id= i op-mult= * Cte entera= 2 punto-coma= ; 
+ PRINTF  parent-a= ( Cte cadena="El doble es %d" coma= , Id= i parent-c= ) punto-coma= ; 
+ IF parent-a= ( Id= j  igual= ==  Id= i parent-c= ) inicio= {
+    WHILE parent-a= ( Id= i menor= < Cte entera= 054 parent-c= ) inicio= {
+        Id= i op-asign= = Id= i Cte entera= +1 punto-coma= ; 
+    fin= } 
+ fin= } 
+ CHAR  Error= 9z punto-coma= ;  Comentario (1 linea)= //error 
+ Comentario (1 linea)= // Esta función no hace nada 
+
+ Comentario (1 linea)= // errores 
+ Id= disc  op-asign= =  Id= b op-mult= * op-mult= * Cte entera= 2  op-sust= -  Error= 4a op-mult= * Id= c punto-coma= ;  
+ Error= ? 
+ Error= ... Error= & 
+ Id= dg Error= & 
+ Id= discs mayor= > mayor= > Id= abo coma= , Id= r 
+ Id= disc-sabor Error= & 
+ Id= disc_sabor 
+ Error= .f1f.43.ede 
+
+ Cte entera= -15 punto= . Cte entera= -5 
+fin= } 
+
+TABLA DE IDENTIFICADORES
+Hay 13 identificadores
+Id= disc_sabor; Id= disc-sabor; Id= r; Id= abo; Id= discs; Id= dg; Id= b; Id= disc; Id= z; Id= cadena; Id= c; Id= j; Id= i; 
+
+LISTA DE ERRORES
+Hay 9 errores
+Error= .f1f.43.ede; Error= &; Error= &; Error= &; Error= ...; Error= ?; Error= 4a; Error= 9z; Error= 2z; 
