@@ -25,20 +25,20 @@ inicio= {
  Comentario (1 linea)= // errores 
  Id= disc  op-asign= =  Id= b op-mult= * op-mult= * Cte entera= 2  op-sust= -  Error= 4a op-mult= * Id= c punto-coma= ;  
  Error= ? 
- Error= ... Error= & 
+ punto= . punto= . punto= . Error= & 
  Id= dg Error= & 
  Id= discs mayor= > mayor= > Id= abo coma= , Id= r 
  Id= disc-sabor Error= & 
  Id= disc_sabor 
- Error= .f1f.43.ede 
+ punto= . Id= f1f punto= . Cte entera= 43 punto= . Id= ede 
 
  Cte entera= -15 punto= . Cte entera= -5 
 fin= } 
 
 TABLA DE IDENTIFICADORES
-Hay 13 identificadores
-Id= disc_sabor; Id= disc-sabor; Id= r; Id= abo; Id= discs; Id= dg; Id= b; Id= disc; Id= z; Id= cadena; Id= c; Id= j; Id= i; 
+Hay 15 identificadores
+Id= ede; Id= f1f; Id= disc_sabor; Id= disc-sabor; Id= r; Id= abo; Id= discs; Id= dg; Id= b; Id= disc; Id= z; Id= cadena; Id= c; Id= j; Id= i; 
 
 LISTA DE ERRORES
-Hay 9 errores
-Error= .f1f.43.ede; Error= &; Error= &; Error= &; Error= ...; Error= ?; Error= 4a; Error= 9z; Error= 2z; 
+Hay 7 errores
+Error= &; Error= &; Error= &; Error= ?; Error= 4a; Error= 9z; Error= 2z; 

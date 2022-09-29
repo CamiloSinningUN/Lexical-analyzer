@@ -35,7 +35,6 @@ caracter [']([^'\\\n]|\\.|\\\n)*[']
 id ({letter}|_)(({letter}|{digit}|-|_)*({letter}|{digit}|_))?
 comentario "//".*" "*
 multicomentario \/\*(.*\n)*.*\*\/
-gen [^\ \n\t\!\%\^(&&)\*\(\)\+\,\-\=\{\}\;\<\>]
 
 %%
 
@@ -165,7 +164,7 @@ gen [^\ \n\t\!\%\^(&&)\*\(\)\+\,\-\=\{\}\;\<\>]
     fprintf(yyout,"Error= %s ",yytext);
     }
 
-({gen})+ {
+. {
     node *n = malloc(sizeof(node));
     if (n == NULL)
     {
