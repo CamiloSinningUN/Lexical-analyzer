@@ -67,5 +67,5 @@ Finally, through the preference file reading mode, the results are seen in Salid
 
 * **Camilo Sinning** - [CamiloSinningUN](https://github.com/CamiloSinningUN)
 
-See the list of all [contributors](https://github.com/CamiloSinningUN/Bienestar_familiar/contributors) who have participated in this project.
+See the list of all [contributors](https://github.com/CamiloSinningUN/Lexical-analyzer/contributors) who have participated in this project.
 
