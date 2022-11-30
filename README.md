@@ -1,8 +1,8 @@
 # Lexical-analyzer
 
-LEXICAL AND SYNTACTIC ANALYZER OF A SUBSET OF C.
+Lexical analyzer of a subset of C.
 
-## Grammar 
+## Grammar 🔏
 
 The following are the tokens that are part of the set to take into account:
 start({),if-else-fif,for-ffor,mq-fmq,hh-fhh,dd-fdd (depending on),read,write,end
@@ -30,9 +30,25 @@ Comments within each of the programs should be considered.
 The following variable declarations are considered: int, float, char. these are words
 C programming language keys.
 
-**You should not consider:**
+### **You should not consider:**
 
 Handling arrays of any dimension.
 string handling
 Handling functions or subroutines
 Management of predefined functions.
+
+## Use 🚀
+
+Steps for the compilation and execution of the program:
+
+1. It goes to project folder
+
+2. The command is executed: lex -o LAB01_Caicedo_Julio_Sinning.c LAB01_Caicedo_Julio_Sinning.l (This generates the file LAB01_Caicedo_Julio_Sinning.c)
+
+3. The command is executed: gcc -o LAB01_Caicedo_Julio_Sinning.out LAB01_Caicedo_Julio_Sinning.c (This generates the executable file LAB01_Caicedo_Julio_Sinning)
+
+4. The command is executed: ./LAB01_Caicedo_Julio_Sinning.out Test.txt (This executes the program)
+
+Finally, through the preference file reading mode, the results are seen in Salida.txt
+
+
