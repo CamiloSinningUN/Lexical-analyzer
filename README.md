@@ -39,6 +39,12 @@ Management of predefined functions.
 
 ## Use 🚀
 
+### requirements 📋
+
+* Linux
+
+### Run 🔧
+
 Steps for the compilation and execution of the program:
 
 1. It goes to project folder
@@ -51,4 +57,15 @@ Steps for the compilation and execution of the program:
 
 Finally, through the preference file reading mode, the results are seen in Salida.txt
 
+## Built with 🛠️
+
+* Visual Studio Code - IDE
+* Linux
+* Lex
+* C
+## Author ✒️
+
+* **Camilo Sinning** - [CamiloSinningUN](https://github.com/CamiloSinningUN)
+
+See the list of all [contributors](https://github.com/CamiloSinningUN/Bienestar_familiar/contributors) who have participated in this project.
 
